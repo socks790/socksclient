@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "socksclient",
+  "version": "${version}",
+  "name": "Socks Client",
+  "description": "Socks Client watermark with a sock logo in the bottom right of every screen.",
+  "authors": ["socks790"],
+  "environment": "client",
+  "icon": "assets/socksclient/icon.png",
+  "entrypoints": { "client": ["com.socks.client.SocksClientMod"] },
+  "depends": { "fabricloader": ">=0.19.0", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*" }
+}
